@@ -2,10 +2,10 @@ const { Telegraf, Markup } = require('telegraf');
 const instagram = require("@phaticusthiccy/open-apis");
 const bot = new Telegraf(process.env.token);
 
-bot.start((ctx) => ctx.reply("Hai "+ctx.from.username+" Aku adalah bot untuk mendownload video/photo dari instagram. Silahkan Kirim link untuk memulai download", {
+bot.start((ctx) => ctx.reply("Salam, Əziz"+ctx.from.username+"! Bu bot vasitəsilə sən Instagram'dan video və şəkil endirə bilərsən. Xoş istifadələr. ", {
       ...Markup.inlineKeyboard([
-        Markup.button.url('Developer', 
-           't.me/scerviez')
+        Markup.button.url('Sahibimin kanalı🙈', 
+           't.me/ThehusnumustafayevBlog')
       ])
      }
     ));
