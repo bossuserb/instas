@@ -5,7 +5,7 @@
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/instagram-downloader",
+  "repository": "https://github.com/bossuserb/instas",
   "env": {
     "token": {
       "description": "Bot token kamu",
